@@ -8,7 +8,7 @@
             >
             <!-- <span class="material-symbols-outlined prevent-select"> {{ content }} </span> -->
             <svg class="w-7 h-7 justify-center items-center p-0.5" fill="white">
-                <use :href="`http://localhost:5173/icons/icons.svg#${content}`" />
+                <use :href="`https://localhost:5173/icons/icons.svg#${content}`" />
             </svg>
 
         </button>
