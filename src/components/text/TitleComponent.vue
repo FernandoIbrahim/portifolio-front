@@ -1,5 +1,5 @@
 <template>
-  <p class = "flex items-center gap-1 dark:text-[#DADADA] text-md">{{ content }}</p>
+  <p class = "flex items-center gap-1 text-[#DADADA] text-md">{{ content }}</p>
 </template>
 
 <script>

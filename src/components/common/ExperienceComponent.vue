@@ -25,7 +25,7 @@
             </div>
 
             <div class = "w-28 min-w-28 ml-5 flex justify-start data">
-                    <p class = "text-sm dark:text-[#DADADA] dark:text-opacity-50"> {{ date }} </p>
+                    <p class = "text-sm text-[#DADADA] text-opacity-50"> {{ date }} </p>
             </div>
         </div>
 
