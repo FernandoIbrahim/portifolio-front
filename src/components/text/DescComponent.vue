@@ -1,5 +1,5 @@
 <template>
-    <p class = " flex text-sm dark:text-[#DADADA] max-w-[800px] dark:text-opacity-50">{{ content }}</p>
+    <p class = " flex text-sm text-[#DADADA] max-w-[800px] text-opacity-50">{{ content }}</p>
   </template>
   
   <script>

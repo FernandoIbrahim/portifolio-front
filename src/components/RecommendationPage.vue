@@ -1,6 +1,6 @@
 <template>
     <div class="w-full">
-        <AtacarejoComponent  title = "Atacarejo Fernando" job=""  :img = "`${this.route}atacarejo.jpg`" desc = "Atacarejo Fernando é uma empresa" />
+        <AtacarejoComponent  title = "Atacarejo Fernando" job=""  :img = "`/atacarejo.jpg`" desc = "Atacarejo Fernando é uma empresa" />
     </div>
 
 </template>

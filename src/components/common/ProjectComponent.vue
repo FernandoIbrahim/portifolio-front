@@ -16,7 +16,7 @@
 
               <div class="flex flex-col justify-end h-8 mb-1 ml-2 duration-75" v-if="mouseOuver" :class="{mouseOuver: 'anime-in-slow'}" >
                 <svg class="w-5 h-5 flex items-start  p-0.5" fill="white">
-                  <use :href="`http://localhost:5173/icons/icons.svg#link`" class="flex"/>
+                  <use :href="`/icons/icons.svg#link`" class="flex"/>
                 </svg>
               </div>
 

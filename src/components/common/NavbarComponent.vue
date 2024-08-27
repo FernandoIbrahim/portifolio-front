@@ -1,5 +1,5 @@
 <template>
-    <nav class=" flex flex-row items-center h-16 justify-between z-10 gap-1 dark:text-[#DADADA] bg-neutral-900">
+    <nav class=" flex flex-row items-center h-16 justify-between z-10 gap-1 text-[#DADADA] bg-neutral-900">
 
         <div class="left-10 flex relative">
 
