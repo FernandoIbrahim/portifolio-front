@@ -131,11 +131,12 @@ import DescComponent from '@/components/text/DescComponent.vue';
     height: 144px;
     background-color: blueviolet;
   }
+
 }
 
 
 
-@media  screen and (min-width: 600px){
+@media  screen and (min-width: 800px){
 
 .project-card  {
     display: flex;
