@@ -6,7 +6,7 @@
     >
 
           <div class = "image-box flex flex-col justify-center mr-5">
-            <img class="imagem-item rounded-sm" :src="img"/> 
+            <img class="imagem-item rounded-sm bg-neutral-700" :src="img"/> 
           </div>
 
           <div class="flex flex-col">
@@ -95,7 +95,6 @@ import DescComponent from '@/components/text/DescComponent.vue';
 .imagem-item {
   width: 180px;
   height: 120px;
-  background-color: blueviolet;
 }
 
 .image-box{
@@ -129,7 +128,6 @@ import DescComponent from '@/components/text/DescComponent.vue';
   .imagem-item{
     width: 240px;
     height: 144px;
-    background-color: blueviolet;
   }
 
 }
@@ -148,7 +146,6 @@ import DescComponent from '@/components/text/DescComponent.vue';
 .imagem-item{
   width: 100%;
   height: 144px;
-  background-color: blueviolet;
 }
 
 .image-box{

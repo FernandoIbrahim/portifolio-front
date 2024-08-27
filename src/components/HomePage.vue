@@ -2,7 +2,7 @@
 
     <div class="flex flex-col">
 
-        <ProfileComponent name="Fernando Ibrahim" desc="Software Developer" img="/foto.jpeg"/>
+        <ProfileComponent name="Fernando Ibrahim" desc="Engenheiro de Software" img="/foto.jpeg"/>
 
         <div class="mt-7 flex flex-col max-w-[800px] gap-4 pb-8 text-bs text-[#DADADA]">
             <p>Olá!</p>

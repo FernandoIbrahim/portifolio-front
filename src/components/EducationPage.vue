@@ -7,7 +7,7 @@
         </div>
         <div class="flex flex-col mt-20">
             <TitleComponent content = "Certificados"/>
-            <ExperienceComponent   title = "FCE - First Certificate in English" school = "Cambridge English" :img = "`/education/1724421943348-cambridge.jpeg`" date = "2023"/>
+            <ExperienceComponent   title = "FCE - First Certificate in English" school = "Cambridge English" :img = "`/education/1724421943348-cambridge.jpeg`" date = "2022"/>
             <ExperienceComponent   title = "PET - Preliminary English Test" school = "Cambridge English" :img = "`/education/1724421943348-cambridge.jpeg`" date = "2021"/>
         </div>
     </div>
