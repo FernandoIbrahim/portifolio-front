@@ -13,7 +13,7 @@
                 
 
                 
-                    <div class = "min-h-full flex justify-center max-w-[700px] mt-10">
+                    <div class = "min-h-full flex justify-center max-w-[1000px] mt-10">
                         <DescComponent :content = "desc"/>
                     </div>
 

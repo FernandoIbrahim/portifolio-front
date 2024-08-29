@@ -1,22 +1,24 @@
 <template>
     <div class="w-full flex flex-col items-center">
-        <AtacarejoComponent  title = "Atacarejo Fernando" job=""  :img = "`/vale.jpeg`" desc = "Acredito que o estágio será extremamente benéfico para a aplicação dos conhecimentos adquiridos, tanto na gestão de suprimentos do meu comércio local familiar quanto no desenvolvimento de aplicações práticas, eficientes, escaláveis e extensíveis." />
-        <ProjectComponent name = "Atacarejo Fernando" desc = "Pequena loja de atacado e varejo situada na cidade de Ponte Nova (Minas Gerais), a qual trabalha com uma grande diversidade de produtos, atendendo às demandas locais por mercadorias de qualidade a preços acessíveis." :img = "`/atacarejo.jpg`" data = "2023" url="https://www.instagram.com/atacarejofernando/"
-        class="mt-20 max-w-[700px] flex"/>
+        <TitleComponent content="Trabalhos"></TitleComponent>
+        <ProjectComponent name = "Atacarejo Fernando" desc = "Pequena loja de atacado e varejo situada na cidade de Ponte Nova (Minas Gerais), a qual trabalha com uma grande diversidade de produtos, atendendo às demandas locais por mercadorias de qualidade a preços acessíveis. Durante a implementação da loja, trabalhei em uma série de atividades, incluindo o design do negócio, a implementação do sistema de vendas, suporte técnico, caixa e vendas." :img = "`/atacarejo.jpg`" data = "2023" url="https://www.instagram.com/atacarejofernando/"
+        class="mt-20 max-w-[900px] flex"/>
+        <ProjectComponent name = "Telus Intenacional" desc = "No início de 2022, trabalhei como freelancer para a Telus International, uma empresa terceirizada que oferece serviços para grandes empresas de tecnologia (BIGTECHs). Na posição de Social Media Evaluator, minhas responsabilidades incluíam fornecer avaliações humanas, em inglês, sobre postagens reportadas em uma grande rede social." :img = "`/telus.jpg`" data = "2023" url="https://www.instagram.com/atacarejofernando/"
+        class="mt-8 max-w-[900px] flex"/>
     </div>
 
 </template>
 
 <script>
-import AtacarejoComponent from './common/AtacarejoComponent.vue';
+import TitleComponent from './text/TitleComponent.vue';
 import ProjectComponent from './common/ProjectComponent.vue';
 
     export default {
 
         name: "RecomendationaPage",
         components: {
-            AtacarejoComponent,
-            ProjectComponent
+            ProjectComponent,
+            TitleComponent
         },
         data(){
             return {

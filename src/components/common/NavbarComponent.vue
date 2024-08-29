@@ -18,7 +18,7 @@
                 </li>
 
                 <li>
-                    <ButtonComponent content = "recommendation" mainUrl = "/recommendation" title="Benefícios"/>
+                    <ButtonComponent content = "work" mainUrl = "/work" title="Experiência"/>
                 </li>
             </ul>
         </div>

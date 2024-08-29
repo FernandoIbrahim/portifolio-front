@@ -25,8 +25,8 @@ const routes = [
     component: Education
   },
   {
-    path: '/recommendation',
-    name: 'Recommendation',
+    path: '/work',
+    name: 'work',
     component: Recommendation
   }
 
